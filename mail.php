@@ -1,5 +1,5 @@
 <?php
-<?php
+
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -16,4 +16,4 @@ echo "gotcha! Thank you for you message";
  
 ?>
 
-?>
+
