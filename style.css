@@ -86,6 +86,19 @@ section .title::after{
     background: rgb(20, 130, 220);
     
 }
+.home .move{
+    animation: breadth 3s 1;
+}
+@keyframes breadth{
+    0%{
+        color: white;
+        margin-bottom: -30px;
+    }
+    30%{
+        color: rgb(3, 135, 250);
+        letter-spacing: 5px;
+    }
+}
 .max-width1{
     max-width: 1300px;
     padding: 5px 40px;
@@ -403,8 +416,8 @@ footer{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;
+       
+        width: 290px;
     }
 }
 @media (max-width: 991px) {
