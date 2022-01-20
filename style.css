@@ -227,6 +227,9 @@ section .title::after{
     color: rgb(2, 133, 255);
 
 }
+.home-content2 li a{
+    text-decoration: none;
+}
 /* about section styling */
 
 .about .about-content .left{
