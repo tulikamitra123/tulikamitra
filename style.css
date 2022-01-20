@@ -229,6 +229,8 @@ section .title::after{
 }
 .home-content2 li a{
     text-decoration: none;
+    color: rgb(2, 133, 255);
+
 }
 /* about section styling */
 
