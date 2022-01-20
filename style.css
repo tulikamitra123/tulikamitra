@@ -430,6 +430,7 @@ footer{
     .navbar .menu li{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .navbar .menu li a{
        
