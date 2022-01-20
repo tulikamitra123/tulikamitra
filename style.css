@@ -180,7 +180,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url(banner.png) no-repeat center;
+    background: url(banner2.png) no-repeat center;
     height: 100vh;
     color: rgb(31, 166, 255);
     min-height: 500px;
@@ -454,7 +454,7 @@ footer{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: rgb(191, 229, 255);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
