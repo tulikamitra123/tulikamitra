@@ -77,12 +77,12 @@ section .title::after{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 20px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 10px 0;
     background: rgb(20, 130, 220);
     
 }
@@ -109,7 +109,7 @@ section .title::after{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 10px;
 }
 .navbar  .logo a{
     color: rgb(86, 193, 255);
