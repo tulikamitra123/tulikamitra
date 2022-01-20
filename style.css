@@ -77,12 +77,12 @@ section .title::after{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 20px 0;
+    padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 10px 0;
+    padding: 15px 0;
     background: rgb(20, 130, 220);
     
 }
@@ -101,7 +101,7 @@ section .title::after{
 }
 .max-width1{
     max-width: 1300px;
-    padding: 5px 40px;
+    padding: 5px 20px;
     margin: auto;
     
 }
