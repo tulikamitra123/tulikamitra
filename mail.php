@@ -1,16 +1,20 @@
 <?php
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+if(isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $emailfrom = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
 
-$mailheader = "From: ".$name."<".$email.">\r\n"
-$recipient = "tulika.mitra130702@gmail.com";
+    $mailTo ="tulika.mitra130702@gmail.com";
+    $header = "From :" .$emailfrom;
+    $txt =" You have received an email from " .$name,"\n\n".$message;
 
-mail($recipient, $subject, $message, $mailheader)
-or die("Error! sorry try again next time :)");
-echo "gotcha! Thank you for you message";
+
+mail($mailTo, $subject, $txt, $header );
+header("Location : index.php?mailsend")
+}
+
  
 
 ?>
