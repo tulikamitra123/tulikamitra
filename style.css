@@ -88,7 +88,7 @@ section .title::after{
 }
 .max-width1{
     max-width: 1300px;
-    padding: 0 40px;
+    padding: 20px 40px;
     margin: auto;
     
 }
