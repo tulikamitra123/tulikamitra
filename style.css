@@ -188,6 +188,10 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+.home{
+    display: flex;
+    flex-direction: column;
+}
 .home .max-width{
   width: 100%;
   display: flex;
@@ -211,7 +215,18 @@ section .title::after{
     color: rgb(0, 83, 161);
     font-weight: 500;
 }
+.home-content2 {
+    padding-top: 200px;
+    margin-left: 50px;
+}
+.home-content2 li{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 30px;
+    display:inline-block;
+    color: rgb(2, 133, 255);
 
+}
 /* about section styling */
 
 .about .about-content .left{
@@ -503,6 +518,19 @@ footer{
     }
     .home .home-content a{
         font-size: 20px;
+    }
+    .home-content2 {
+        padding-top: 20px;
+        margin-left: 30px;
+        top: -30%;
+    }
+    .home-content2 li{
+        
+        padding: 20px;
+        font-size: 30px;
+        display:inline-block;
+        color: rgb(2, 133, 255);
+    
     }
     .services .serv-content .card{
         width: 100%;
