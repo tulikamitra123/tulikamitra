@@ -86,7 +86,7 @@ section .title::after{
     background: rgb(20, 130, 220);
     
 }
-.navbar .max-width{
+.navbar .max-width1{
     display: flex;
     align-items: center;
     justify-content: space-between;
