@@ -86,6 +86,12 @@ section .title::after{
     background: rgb(20, 130, 220);
     
 }
+.max-width1{
+    max-width: 1300px;
+    padding: 0 40px;
+    margin: auto;
+    
+}
 .navbar .max-width1{
     display: flex;
     align-items: center;
